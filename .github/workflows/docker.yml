@@ -7,8 +7,8 @@ name: Build, test, and push Docker Images
 
 on:
   schedule:
-    # Weekly, at 03:00 on Monday UTC
-    - cron: "0 3 * * 1"
+    # # Weekly, at 03:00 on Monday UTC
+    # - cron: "0 3 * * 1"
   pull_request:
     paths:
       - ".github/workflows/docker.yml"
